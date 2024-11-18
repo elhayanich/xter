@@ -3,7 +3,7 @@ from typing import List, Optional
 from pydantic import BaseModel, EmailStr
 from typing import Optional
 from datetime import datetime
-from .message_model import MessageCreate
+from message_model import MessageCreate
 
 # Modèle Pydantic pour la validation des données
 class UserCreate(BaseModel):
