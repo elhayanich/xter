@@ -1,5 +1,5 @@
 from fastapi import Depends, APIRouter, HTTPException, UploadFile, File
-from models import User, UserPictureUpdateURL, UserPictureUpdatePath
+from user_model import User, UserPictureUpdateURL, UserPictureUpdatePath
 import database_connect
 from mysql.connector import Error
 import os

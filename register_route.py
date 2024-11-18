@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 # Importing all models from models/__init__.py
-from models import *
+from user_model import UserCreate
 import database_connect
 from mysql.connector import Error
 from auth_tools import AuthTool

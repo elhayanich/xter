@@ -1,5 +1,5 @@
 from fastapi import APIRouter, HTTPException
-from models.tag_model import TagCreate
+from tag_model import TagCreate
 from typing import List
 import database_connect
 from mysql.connector import Error

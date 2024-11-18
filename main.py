@@ -4,7 +4,13 @@ from fastapi.staticfiles import StaticFiles
 
 
 # Importing all the routes from routes/__init__.py
-from routes import *
+from register_route import register_router
+from message_route import message_router
+from tag_route import tag_router
+from login_route import login_router
+from token_route import token_router 
+from user_route import user_router
+
 
 app = FastAPI()
 

@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from models import *
+from user_model import UserAuth
 import database_connect
 from mysql.connector import Error
 from auth_tools import AuthTool

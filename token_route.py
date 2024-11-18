@@ -1,5 +1,4 @@
 from fastapi import APIRouter
-from models import *
 from auth_tools import AuthTool
 from fastapi import Depends, HTTPException
 from typing import Annotated
